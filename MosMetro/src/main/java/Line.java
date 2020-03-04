@@ -3,15 +3,27 @@ import java.util.List;
 
 public class Line {
 
+    /**
+     * Переменные для объектов класса
+     */
     private String name;
     private String number;
     private List<Station> stations;
 
+    /**
+     * Конструктор линии метро
+     * @param number - номер линии
+     * @param name - название
+     */
     public Line(String number, String name) {
         this.number = number;
         this.name = name;
         stations = new ArrayList<>();
     }
+
+    /**
+     * Геттеры и Сеттеры для переменных
+     */
 
     public String getName() {
         return name;
@@ -37,6 +49,10 @@ public class Line {
         return stations;
     }
 
+    /**
+     * Переопределение метода toString()
+     * @return возвращает строку
+     */
     @Override
     public String toString() {
         return "Line {" +

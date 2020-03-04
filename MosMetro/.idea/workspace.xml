@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c70e758f-d07f-46e2-b37d-c6e29170b406" name="Default Changelist" comment="" />
+    <list default="true" id="c70e758f-d07f-46e2-b37d-c6e29170b406" name="Default Changelist" comment="javadocs added">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StationIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StationIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ToJSON.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XOcdRMZmGLunm0qpi6rw7R5rXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +34,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07/LambdaExpressions" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -65,6 +78,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1581361331134" />
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1583347022172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583347022172" />
     <state x="407" y="140" key="FileChooserDialogImpl" timestamp="1581197174878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

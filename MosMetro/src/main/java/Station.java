@@ -1,18 +1,30 @@
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
 public class Station implements Comparable<Station> {
+
+    /**
+     * Переменные объектов класса Station
+     * Аннотации для корректной записи в JSON-файл
+     */
+
     @SerializedName("number")
     private String lineNumber;
     @SerializedName("name")
     private String stationName;
 
+    /**
+     * Конструктор объекта Станции
+     * @param lineNumber - номер линии
+     * @param stationName - название станции
+     */
     public Station(String lineNumber, String stationName) {
         this.lineNumber = lineNumber;
         this.stationName = stationName;
     }
 
+    /**
+     * Геттеры и Сеттеры для переменных
+     */
     public String getLineNumber() {
         return lineNumber;
     }
@@ -29,6 +41,10 @@ public class Station implements Comparable<Station> {
         this.stationName = stationName;
     }
 
+    /**
+     * Переопределение метода toString()
+     * @return возвращает строку
+     */
     @Override
     public String toString() {
         return "Station {" +
@@ -37,6 +53,9 @@ public class Station implements Comparable<Station> {
                 "}";
     }
 
+    /**
+     * Переопределение метода hashCode() для сортировки объектов
+     */
     @Override
     public int hashCode() {
         int result = lineNumber.hashCode();
@@ -44,6 +63,9 @@ public class Station implements Comparable<Station> {
         return result;
     }
 
+    /**
+     * Переопределение метода сравнения объектов
+     */
     @Override
     public int compareTo(Station o) {
         return stationName.compareTo(o.getStationName());
