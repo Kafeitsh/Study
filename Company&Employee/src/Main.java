@@ -19,14 +19,14 @@ public class Main
         for (int i = 0; i < gromozeka.getOperatorCount(); i++) {
             operators.add(operatorCreate());
         }
-        gromozeka.hireAll(operators); // Реализация методах hireAll(), нанимающей список сотрудников
+        gromozeka.hireAll(operators); // Реализация метода hireAll(), нанимающей список сотрудников
 
         // Создание списка объектов класса Сотрудник "Менеджер"
         ArrayList<Employee> managers = new ArrayList<>();
         for (int j = 0; j < gromozeka.getManagerCount(); j++) {
             managers.add(managerCreate());
         }
-        gromozeka.hireAll(managers); // Реализация методах hireAll(), нанимающей список сотрудников
+        gromozeka.hireAll(managers); // Реализация метода hireAll(), нанимающей список сотрудников
 
         // Создание объектов класса Сотрудник "Топ-Менеджер"\
         for (int k = 0; k < gromozeka.getTopManagerCount(); k++) {
@@ -95,7 +95,7 @@ public class Main
 
         // Проверка количества сотрудников до увольнения
         System.out.println("\nКоличество сотрудников в компании " + coleso.getCompanyName() +
-                " после увольнения: " + coleso.getStaffCount() + " человек");
+                " до увольнения: " + coleso.getStaffCount() + " человек");
 
         // Увольнение трети сотрудников
         firingPeople(coleso, coleso.getStaffCount() / 3);
